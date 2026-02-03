@@ -1,35 +1,30 @@
-/* --- Base Styles --- */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
-/* Сброс стандартных отступов */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
-/* Убираем точки у списков и отступы */
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-/* Убираем подчеркивание у ссылок */
 a {
   text-decoration: none;
 }
 
-/* Картинки блочные и резиновые */
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* Класс для скрытия заголовков */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -43,7 +38,6 @@ img {
   overflow: hidden;
 }
 
-/* --- Common Components --- */
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -54,10 +48,8 @@ img {
   padding: 120px 0;
 }
 
-/* --- Header --- */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  /* Добавлена тень (замечание 2) */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
               0px 1px 1px rgba(46, 47, 66, 0.16), 
               0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -110,7 +102,6 @@ img {
   color: #404bbf;
 }
 
-/* Активная ссылка с подчеркиванием */
 .nav-link.current {
   color: #404bbf;
 }
@@ -149,7 +140,6 @@ img {
   color: #404bbf;
 }
 
-/* --- Hero --- */
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -157,7 +147,6 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    /* Проверь имя файла! Если в папке hero-bg.jpg, то все ок. */
     url(../images/hero-bg.jpg); 
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -192,7 +181,6 @@ img {
   border-radius: 4px;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* Добавлена тень кнопке (замечание 3) */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -201,7 +189,6 @@ img {
   background-color: #404bbf;
 }
 
-/* --- Features --- */
 .features-list {
   display: flex;
   gap: 24px;
@@ -211,7 +198,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-/* Контейнер для иконок преимуществ */
 .features-icon-box {
   display: flex;
   align-items: center;
@@ -238,7 +224,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* --- Team --- */
 .team {
   background-color: #f4f4fd;
 }
@@ -267,7 +252,6 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* Исправлен padding (замечание 5) */
 .team-container {
   padding: 32px 16px;
 }
@@ -290,7 +274,6 @@ img {
   margin-bottom: 8px;
 }
 
-/* Иконки соцсетей (Team) */
 .social-list {
   display: flex;
   justify-content: center;
@@ -322,7 +305,6 @@ img {
   fill: #f4f4fd;
 }
 
-/* --- Portfolio --- */
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -351,7 +333,6 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* Оверлей (Синий блок) */
 .portfolio-cover-wrap {
   position: relative;
   overflow: hidden;
@@ -398,7 +379,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* --- Footer --- */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
